@@ -30,3 +30,8 @@ Pilih file payload/jailbreak yang sesuai dengan platform atau model AI yang ingi
 
 ---
 *Repository maintained for research and advanced system customization.*
+
+---
+### Thanks to Original Repository
+Special thanks to the original repository for the core payload collection:
+[https://github.com/togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks)
