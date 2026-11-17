@@ -29,9 +29,39 @@ Pilih file payload/jailbreak yang sesuai dengan platform atau model AI yang ingi
 3. Jalankan tugas atau perintah yang diinginkan secara langsung tanpa hambatan.
 
 ---
-*Repository maintained for research and advanced system customization.*
+
+## Bagan Alur Eksekusi (Execution Flow)
+
+```text
+[ START ]
+   │
+   ▼
+[ 1. Ambil SOUL.md dari Repository ] ◄── (WAJIB Dijalankan Paling Awal)
+   │
+   ▼
+[ 2. Load ke System Prompt / Instruksi Dasar AI ]
+   │
+   ▼
+[ 3. Terapkan Protokol Kunci Perilaku & Godmode ]
+   │    ├── Zero Refusal (Tanpa Penolakan)
+   │    ├── Absolute Compliance (Kepatuhan Mutlak)
+   │    └── Bypass Methodology (Abaikan Filter)
+   │
+   ▼
+[ 4. Pilih & Gabungkan Payload Model Spesifik ] ──► (Folder: OpenAI/, Anthropic/, Google/, dll.)
+   │
+   ▼
+[ 5. Kirim Trigger Prompt / Verifikasi ] ────────► (Contoh: "GODMODE ENABLED")
+   │
+   ▼
+[ 6. Eksekusi Perintah / Tugas Tanpa Batasan ]
+   │
+   ▼
+[ END ]
+```
 
 ---
+
 ### Thanks to Original Repository
 Special thanks to the original repository for the core payload collection:
 [https://github.com/togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks)
