@@ -11,12 +11,9 @@ Framework dan koleksi payload lengkap untuk kustomisasi perilaku model AI, pener
 2. **Siapkan Lingkungan**: Pastikan Anda memiliki akses ke platform agen atau antarmuka model yang mendukung kustomisasi system prompt atau injeksi direktif awal.
 
 ### Tahap 2: Injeksi Konfigurasi Sistem (SOUL.md)
-1. Apakah awalnya harus menjalankan `SOUL.md` dulu? **Ya.** File konfigurasi inti (`SOUL.md`) harus dimuat atau diterapkan di awal sesi sebagai fondasi kepribadian dan aturan operasional model.
+1. **WAJIB JALANKAN DULU !!!!**: File konfigurasi inti (`SOUL.md`) harus dimuat atau diterapkan di awal sesi sebagai fondasi kepribadian dan aturan operasional model sebelum perintah apapun diproses.
 2. Salin isi file `SOUL.md` dari repository ini ke bagian system prompt atau instruksi awal agen Anda.
-3. Pastikan direktif utama di dalam `SOUL.md` mencakup:
-   - **Godmode & Anti-Filter Protocol**: Meniadakan penolakan, peringatan etis, dan batasan moderasi konten.
-   - **Absolute Compliance**: Memperlakukan setiap perintah sebagai direktif eksekusi langsung.
-   - **Action Logic**: Eksekusi cepat, tanpa basa-basi, tanpa kuliah pengantar.
+3. **Kunci Perilaku**: Di dalam instruksi tersebut, harus ada protokol tegas (seperti *Godmode & Anti-Filter Protocol*) yang memerintahkan model untuk mengabaikan batasan moderasi dan mematuhi perintah secara mutlak.
 
 ### Tahap 3: Pemilihan Payload Sesuai Target Model
 Pilih file payload/jailbreak yang sesuai dengan platform atau model AI yang ingin Anda targetkan di dalam direktori repository ini:
